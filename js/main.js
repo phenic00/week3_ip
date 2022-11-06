@@ -27,3 +27,6 @@ finishButton.addEventListener("click", function(e){
     else{
         comments += "Poor Donely! You have scored " +percentageScore+ "%";
     }
+    alert(comments);
+ 
+});
