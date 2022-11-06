@@ -15,4 +15,9 @@ finishButton.addEventListener("click", function(e){
         }
    
     })
-   
+    let percentageScore = (score/total)*100;
+    let comments = '';
+ 
+    if (percentageScore > 80){
+        comments += "Excellent! You have scored " +percentageScore+ "%";
+    }
