@@ -21,3 +21,6 @@ finishButton.addEventListener("click", function(e){
     if (percentageScore > 80){
         comments += "Excellent! You have scored " +percentageScore+ "%";
     }
+    else if (percentageScore >= 50 && percentageScore <= 80){
+        comments += "Good! You have scored " +percentageScore+ "%";
+    }
