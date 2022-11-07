@@ -3,6 +3,8 @@ const finishButton = document.querySelector("#submit")
 
 let total = 0;
 let score = 0;
+ 
+
 myAnswers.forEach(function(answer){
     total+= parseInt(answer.value);
 });
@@ -15,6 +17,9 @@ finishButton.addEventListener("click", function(e){
         }
    
     })
+   
+ 
+   
     let percentageScore = (score/total)*100;
     let comments = '';
  
@@ -24,9 +29,15 @@ finishButton.addEventListener("click", function(e){
     else if (percentageScore >= 50 && percentageScore <= 80){
         comments += "Good! You have scored " +percentageScore+ "%";
     }
+ 
     else{
         comments += "Poor Donely! You have scored " +percentageScore+ "%";
     }
+ 
+    
     alert(comments);
  
 });
+ 
+
+

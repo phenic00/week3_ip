@@ -1,0 +1,40 @@
+body {
+    width: 600px;
+            margin: 0, auto;
+           
+            background-image: red;
+            
+            }
+
+    
+      div {
+    
+        padding-top: 50px;
+    
+        padding-right: 30px;
+    
+        padding-bottom: 50px;
+    
+        padding-left: 80px;
+    
+      }
+    
+      p {
+    
+        color: rgba(8, 5, 86, 0.708);
+    
+        font-style: bold;
+        text-align: justify;
+        font-size: large;
+    
+        text-decoration: solid;
+    
+        box-sizing: border-box;
+    
+      }
+       h1 {
+       color: rgb(193, 54, 54);
+       
+      }
+      
+  
